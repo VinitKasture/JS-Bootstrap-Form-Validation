@@ -57,7 +57,6 @@ form.addEventListener('submit', (e) => {
         setError("danger", "Email is too long");
         errorArr.push(setError)
     }
-    console.log(errorArr)
     if (errorArr.length == 0) {
         e.preventDefault()
         setError("success", "Form submitted successfully");
