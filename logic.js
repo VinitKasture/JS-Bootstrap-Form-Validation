@@ -53,7 +53,7 @@ form.addEventListener('submit', (e) => {
         setError("danger", "Enter a valid email");
         errorArr.push(setError)
     }
-    if (email.value.length > 20) {
+    if (email.value.length > 40) {
         setError("danger", "Email is too long");
         errorArr.push(setError)
     }
